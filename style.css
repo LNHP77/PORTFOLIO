@@ -11,6 +11,10 @@
   font-family: ab;
   src: url(UCL-Bold.otf);
 }
+
+@media only screen and (max-width: 600px) {
+  /* Styles spécifiques pour les écrans de moins de 600px de largeur */
+}
 .bubbles{
   display: flex;
   position: relative;
