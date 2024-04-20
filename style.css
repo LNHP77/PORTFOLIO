@@ -13,8 +13,88 @@
 }
 
 @media only screen and (max-width: 600px) {
-  /* Styles spécifiques pour les écrans de moins de 600px de largeur */
+  body{
+    margin-left: 150px;
+  }
+  .presentation{
+    margin-left: 200px;
+  }
+  .container1 {
+    margin-right: 110px;
+  }
+  .about-img img{
+    margin-bottom: 700px;
+   
+  }
+  .about{
+    display: grid;
+  }
+  
+  .about-social{
+    position: absolute;
+    bottom: -680px;
+  }
+  
+  .paragraph{
+   white-space: inherit;
+
+  }
+  .paa{
+    width: 300px;
+  height: 100px;
+  margin-bottom: 600px;
+  }
+
+  .paa p{
+    font-size: 20px;
+  }
+  
+  .CV {
+    margin-top: -1300px;
+    
+  }
+  .skills h2{
+    margin-left: 120px;
+  }
+  .skills .skills-container{
+    margin-left: 320px;
+  }
+
+  .gallery_realisation {
+    
+  }
+
+  .separation h4 {
+    margin-left: 100px;
+  }
+  .content {
+    width: 500px;
+  }
+
+  .info img {
+    width: 150px;
+  }
+
+  .montsecond img{
+    width: 150px;
+  }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body{
+    margin-left: 150px;
+  }
+  .container1 {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 1025px){
+  body{
+   
+  }
+}
+
 .bubbles{
   display: flex;
   position: relative;
