@@ -75,8 +75,41 @@
     width: 150px;
   }
 
-  .montsecond img{
-    width: 150px;
+  .content img{
+    max-width: 200px;
+   
+  }
+  .caroussel img{
+    max-width: 350px;
+    margin-bottom: 650px;
+  }
+  .devcont {
+    position: absolute;
+    top: auto;
+  
+  }
+  
+  .devcont p{
+    width: 300px;
+  }
+
+  .cambu{
+    max-width: 400px;
+   
+  }
+  .devcont2{
+    
+    
+  }
+
+  .devcont2 p{
+    width: 300px;
+  }
+
+
+
+  .contact{
+    margin-right: -350px;
   }
 }
 
@@ -904,7 +937,7 @@ width: 400px;
   font-weight: bold;
 }
 
-.form-group input[type="text"], .form-group input[type="email"], .form-group textarea {
+.form-group input[type="name"], .form-group input[type="email"], .form-group textarea {
   width: 100%;
   padding: 10px;
   margin-top: 5px;
