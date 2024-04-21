@@ -3,7 +3,7 @@
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="style.css">
-  <title>Portofolio - PAVIUS Léhann</title>
+  <title>PORTFOLIO</title>
   <head>
     
       <div id="my-div"><div class="cursor">
@@ -37,7 +37,7 @@
 <div class="portfolio">
   <header class="container1">
   <div class="gta">
-    <img src="logo.jpeg" alt="logo" width="80"> </div>
+    <img src="gta.png" alt="logo"> </div>
   </a>
       <ul class="navbar">
         <li class>
@@ -162,9 +162,9 @@
     <div class="about-text">
       <h4>Léhann <span id="coloring">Pavius</span></h4>
       <h5>Etudiant</h5>
-      <p>Étudiant en 1ère année de BUT MMI à l'IUT de Saint-Claude, vous allez découvrir par le biais de réalisations mon
+      <p><div class="paa">Étudiant en 1ère année de BUT MMI à l'IUT de Saint-Claude, vous allez découvrir par le biais de réalisations mon
         travail durant cette première année.
-        Dans le futur je souhaiterais me professionnaliser dans certains domaines notamment le développement web ou encore le montage vidéo.</p>
+        Dans le futur je souhaiterais me professionnaliser dans certains domaines notamment le développement web ou encore le montage vidéo.</div></p>
       <div class="about-social">
         <div>
           <a href="https://www.instagram.com/lhnp971?igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
@@ -253,9 +253,8 @@
             <h3>Développement Web </h3>
             <p>Création de site vitrine, web design.</p>
             <div class="imga-box">
-             <img src="html.png" alt="vscode" width="60px">
-              <img src="css.png" alt="sbtext" width="60px">
-	            	<img src="javascript-logo-big.png" alt="sbtext" width="60px">
+              <img src="vscode.jpg" alt="vscode" width="60px">
+              <img src="sublimetext.jpg" alt="sbtext" width="60px">
             </div>
         </div>
 
@@ -334,9 +333,9 @@
   </div>
 
   <div class="content2" id="real-tabs-third">
-   <img src="cambu.jpg" alt="Cambriolage" width="800">
+   <img src="cambu.jpg" alt="Cambriolage" width="800" class="cambu">
    
-    <div class="devcont">
+    <div class="devcont2">
       <h4>Cambriolage</h4>
       <p>Voici le projet que nous avons fait dernièrement en
         audiovisuel. Le but était de faire un court métrge, par groupe de 5.
@@ -351,7 +350,7 @@
   <div class="content2" id="real-tabs-fourth">
     <div class="caroussel"><img src="tipips.png" alt="siteweb" width="400"></div>
    
-    <div class="devcont">
+    <div class="devcont3">
       <h4>Ti-Pips</h4>
       <p>Voici le projet que nous avons fait en communication. Nous devions choisir un scénario,
         par groupe de 4 ou 5, et ensuite faire une implémentation d’une stratégie de
@@ -413,7 +412,7 @@
     <h4>Contact</h4>
   </div>
   <div class="container_contact">
-    <form action="email.php" id="contactForm" method="post">
+    <form action="email.php" method="post">
       <div class="form-group">
         <label for="name">Nom <span id="coloring"><i class="fa-solid fa-person" aria-hidden="true"></i></span> </label>
         <input type="name" id="name" name="name" required="" placeholder="Votre nom...">
@@ -433,7 +432,7 @@
   </div>
   <footer>
     <div class="footer">
-      <img src="logo.jpeg" alt="logo" width="80"> </div>
+      <img src="gta.png" alt="police-grand-theft-auto" border="0"></a>
     </div>
     <div class="contact-footer">
       © 2024 - Tout droits réservés
@@ -449,6 +448,8 @@
     </ul>
   </footer>
 </section>
+
+
   <script>
     document.getElementById('submitButton').addEventListener('click', function(event) {
         var form = document.getElementById('contactForm');
@@ -536,26 +537,11 @@ icon.onclick = function(){
       icon.src = "moon.png"
   }
 }
-function createBubble(){
-const section = document.getElementById('acceuil')
-const createElelment = document.createElement('span')
-var size = Math. random() * 60;
-createElement. style.width = size + 'px';
-createElement. style.height = size + 'px';
-createElement. style.left = Math. random() * innerWidth + "px";
-section. appendChild(createElement);
 
-setTimeout (() => {
-
-createElement. remove ()
-
-}, 4000)
-
-}
-setInterval(createBubble,50)
       </script>
     </body>
     </html>
+
 
 
 
