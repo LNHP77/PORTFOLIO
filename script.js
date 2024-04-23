@@ -100,3 +100,28 @@ function my4() {
   document.getElementById("real-tabs-third").style.display = "none";
   document.getElementById("real-tabs-fourth").style.display = "flex";
 }
+
+function sendMail() {
+  var params = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    message: document.getElementById("message").value,
+  };
+
+  const serviceID = "service_fqwu3kt";
+  const templateID = "template_lhb4a1c";
+
+  
+  emailjs.send(serviceID, templateID, params)
+  .then(res=>{
+      document.getElementById("name").innerHTML = "Your message sent successfully!!";
+      document.getElementById("email").innerHTML = "Your message sent successfully!!";
+      document.getElementById("message").innerHTML = "Your message sent successfully!!";
+      console.log(res);
+      alert("Your message sent successfully!!")
+
+  })
+  .catch(err=>console.log(err));
+
+}
+        
