@@ -37,7 +37,7 @@
 <div class="portfolio">
   <header class="container1">
   <div class="gta">
-   <img src="logo.jpeg" alt="logo" width="80"> </div>
+    <img src="logo (1).jpeg" alt="logo" width="80"> </div>
   </a>
       <ul class="navbar">
         <li class>
@@ -135,6 +135,8 @@
 
                   textLoad();
                   setInterval(textLoad, 12000);
+
+                  
                 </script>
                 
              
@@ -253,9 +255,8 @@
             <h3>Développement Web </h3>
             <p>Création de site vitrine, web design.</p>
             <div class="imga-box">
-              <img src="html.png" alt="htmlcode" width="60px">
-              <img src="css.png" alt="csstext" width="60px">
-              <img src="javascript-logo-big.png" alt="jstext" width="60px">
+              <img src="vscode.jpg" alt="vscode" width="60px">
+              <img src="sublimetext.jpg" alt="sbtext" width="60px">
             </div>
         </div>
 
@@ -413,7 +414,8 @@
     <h4>Contact</h4>
   </div>
   <div class="container_contact">
-    <form action="email.php" method="post">
+    
+    <form action="mail.php" method="post">
       <div class="form-group">
         <label for="name">Nom <span id="coloring"><i class="fa-solid fa-person" aria-hidden="true"></i></span> </label>
         <input type="name" id="name" name="name" required="" placeholder="Votre nom...">
@@ -427,7 +429,7 @@
         <textarea id="message" name="message" rows="5" required="" placeholder="Votre message..."></textarea>
       </div>
       <div class="form-group">
-        <button type="button" id="submitButton"><span id="coloring2">Envoyer </span></button>
+        <button type="button" id="submitButton" name="send" onclick="sendMail()">Envoyer</button>
       </div>
     </form>
   </div>
@@ -540,8 +542,7 @@ icon.onclick = function(){
 }
 
       </script>
-
-   <script src="script.js"></script>
+       <script src="script.js"></script>
 
        <script type="text/javascript"
            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
@@ -555,6 +556,13 @@ icon.onclick = function(){
    </script>
     </body>
     </html>
+
+
+
+
+
+
+
 
 
 
