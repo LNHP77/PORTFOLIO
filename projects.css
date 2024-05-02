@@ -40,6 +40,20 @@ body{
         cursor: pointer;
     }
 
+.navbar{
+      display: flex;
+      margin-left: 550px;
+    }
+
+    .navbar a {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 5px 0;
+      margin: 0px 30px;
+      transition: all .50s ease;
+  }
+
     .titre h1{
         color: white;
         font-family: myFont;
