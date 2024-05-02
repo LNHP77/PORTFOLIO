@@ -1068,3 +1068,18 @@ width: 400px;
   list-style: none;
 }
 
+.pflio {
+  
+    background: linear-gradient(45deg,#d2001a,#7462ff);
+    border-radius: 16px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    margin-left: 1px;
+    padding: 20px 20px;
+
+}
+
+.pflio p{
+  font-size: 25px;
+  color: #fff;
+}
+
