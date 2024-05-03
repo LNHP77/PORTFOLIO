@@ -42,7 +42,7 @@ body{
 
 .navbar{
       display: flex;
-      margin-left: 550px;
+      margin-left: 650px;
     }
 
     .navbar a {
@@ -69,7 +69,7 @@ body{
         background: #fff;
         border-radius: 16px;
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-        margin-left: 50px;
+        margin-left: 150px;
     }
 
     .realbutton input[type = "radio"] {
