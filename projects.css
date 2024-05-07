@@ -2,6 +2,204 @@
   font-family: myFont3;
 }
 
+@media (max-width:1024px) {
+  .navbar{
+   position: relative;
+   right: 275px;
+   
+  }
+  
+  .titre {
+   position: relative;
+   left: 350px;
+   top: 50px;
+  }
+
+  .projets {
+    width: 900px !important;
+   
+}
+
+  
+  .projets2 {
+    width: 900px !important;
+   
+}
+
+#pop {
+  width: 400px;
+  margin-bottom: 200px;
+}
+
+.projets2 p {
+  margin-bottom: 80px;
+}
+
+.projets2 .logutil {
+ position: relative;
+ left: 30%;
+ bottom: 120px;
+
+}
+
+.voirsite button {
+  position: relative;
+  left: 35%;
+  bottom: 120px;
+}
+
+.projets3 {
+  width: 900px !important;
+ 
+}
+
+
+.projets4 {
+  width: 900px !important;
+ 
+}
+
+#mcdo {
+  width: 400px;
+  margin-bottom: 100px;
+ 
+}
+
+.mcdolo p{
+  position: relative;
+  bottom: 30px;
+}
+
+.projets4 .logutil {
+  position: relative;
+  left: 25%;
+  bottom: 70px;
+ 
+ }
+
+ .projets4 .voirsite button {
+  position: relative;
+  left: 45%;
+  bottom: 110px;
+}
+
+
+.projets7 {
+  width: 900px !important;
+ 
+}
+
+.projets8 {
+  width: 900px !important;
+}
+
+#cambu{
+  margin-bottom: 100px;
+}
+
+.projets8 .logutil {
+  position: relative;
+ bottom: 10px;
+ 
+ }
+
+ .CV button {
+  position: relative;
+  bottom: 20px;
+ }
+
+.projets9 {
+  width: 900px !important;
+ 
+}
+
+.projets10 {
+  width: 900px !important;
+}
+
+#caroussel{
+  width: 400px;
+  margin-bottom: 100px;
+}
+
+.projets10 .logutil4 {
+  position: relative;
+  left: 30%;
+  bottom: 50px;
+}
+
+.voirsite4 button {
+  position: relative;
+  left: 5%;
+  bottom: 70px;
+}
+
+.projets11 {
+  width: 900px !important;
+ 
+}
+
+.projets12 {
+  width: 900px !important;
+}
+
+#visio{
+  width: 350px;
+  position: relative;
+  bottom: 50px;
+}
+
+.projets12 .logutil {
+position: relative;
+left: 20%;
+bottom: 50px;
+}
+
+
+
+.projets13 {
+  width: 900px !important;
+ 
+}
+
+.projets14 {
+  width: 900px !important;
+}
+
+.projets15 {
+  width: 900px !important;
+ 
+}
+
+.projets16 {
+  width: 900px !important;
+}
+
+.projets17 {
+  width: 900px !important;
+ 
+}
+
+.projets18 {
+  width: 900px !important;
+}
+
+.projets18 .logutil5 {
+  position: relative;
+  bottom: 15px;
+}
+
+.projets19 {
+  width: 900px !important;
+ 
+}
+
+.projets20 {
+  width: 900px !important;
+}
+
+}
+
 :root {
     --primary-color:linear-gradient(45deg,#d2001a,#7462ff);
     --secondary-color:linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
@@ -40,9 +238,9 @@ body{
         cursor: pointer;
     }
 
-.navbar{
+    .navbar{
       display: flex;
-      margin-left: 650px;
+      margin-left: 550px;
     }
 
     .navbar a {
@@ -69,7 +267,7 @@ body{
         background: #fff;
         border-radius: 16px;
         box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     .realbutton input[type = "radio"] {
@@ -178,6 +376,10 @@ body{
             
             align-items: center;
             justify-content: center;
+        }
+        
+        .hide-width {
+          width: 0;
         }
 
         .projets2{
