@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes projets</title>
+     <link rel="icon" href="logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="projects.css">
    
    
@@ -91,7 +92,7 @@ var image = document.getElementById("tejo");
      
       <div class="projets2">
         <div class="caroussel">
-        <img src="POP-Protocol.jpg" alt="" width="600">
+        <img src="POP-Protocol.jpg" alt="" width="600" id="pop">
         
         <div class="text"><h2>Auditer une communication numérique</h2><br>
           <p>Notre tout premier projet de classe en développement web, nous avions pour objectif de 
@@ -117,7 +118,7 @@ var image = document.getElementById("tejo");
 
         <div class="projets4">
         <div class="caroussel">
-          <img src="McDonalds-logo.png" alt="" width="400">
+          <img src="McDonalds-logo.png" alt="" width="400" id="mcdo">
           
           <div class="text"><h2>Concevoir une recommandation de communication numérique</h2><br>
           <p>En tant que chargés de communication juniors, les étudiants conçoivent une recommandation de communication pour la sortie
@@ -126,7 +127,7 @@ var image = document.getElementById("tejo");
             tion : Comment communiquer efficacement autour de la sortie de ce produit et toucher la cible visée dans différents
             
             pays ? Pour ce devoir, j'ai décidé de parler de l'entreprise McDonald's.</p>
-            <br> <p>Logiciel/s utilisés:</p> 
+            <br> <div class="mcdolo"><p>Logiciel/s utilisés:</p></div> 
             <div class="logutil"> <img src="Microsoft-PowerPoint-Logo-2013-2018.jpg" alt="vscode" width="50px">
              </div>
               <a href="Mcdonald's.pdf" download class="download-btn">
@@ -143,7 +144,7 @@ var image = document.getElementById("tejo");
 
         <div class="projets8">
         <div class="caroussel">
-          <img src="cambu.jpg" alt="" width="400">
+          <img src="cambu.jpg" alt="" width="400" id="cambu">
 
           <div class="text"><h2>Produire un contenu audio et vidéo</h2><br>
             <p>Voici le projet que nous avons fait dernièrement en
@@ -165,7 +166,7 @@ var image = document.getElementById("tejo");
 
       <div class="projets10">
         <div class="caroussel">
-          <img src="caroussel.png" alt="" width="400">
+          <img src="caroussel.png" alt="" width="400" id="caroussel">
 
           <div class="text"><h2>Produire un site Web</h2><br>
             <p>Notre tout premier projet de classe en développement web, nous avions pour objectif de 
@@ -189,7 +190,7 @@ var image = document.getElementById("tejo");
        
         <div class="projets12">
         <div class="caroussel">
-          <img src="visio.jpg" alt="" width="400">
+          <img src="visio.jpg" alt="" width="400" id="visio">
 
           <div class="text"><h2>Rencontre avec les 2ème année</h2><br>
           <p>Dans le cadre de notre programme, chaque groupe a été chargé de préparer un projet significatif, 
@@ -454,6 +455,24 @@ function my6() {
   document.getElementById("real-tabs-twelve"). style.display = "block";
 }
 
+
+function adjustWidth() {
+  // Récupérer la largeur de l'écran
+  var screenWidth = window.innerWidth;
+
+  // Vérifier si la largeur de l'écran est inférieure à 1024 pixels
+  if (screenWidth < 1024) {
+    // Ajouter la classe "hide-width" à l'élément ".projets2"
+    document.querySelector(".projets2").classList.add("hide-width");
+  } else {
+    // Retirer la classe "hide-width" de l'élément ".projets2"
+    document.querySelector(".projets2").classList.remove("hide-width");
+  }
+}
+
+// Appeler la fonction au chargement de la page et lors du redimensionnement de la fenêtre
+window.addEventListener("load", adjustWidth);
+window.addEventListener("resize", adjustWidth);
       </script>
 </body>
 </html>
