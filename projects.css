@@ -201,15 +201,15 @@ bottom: 50px;
 }
 
 :root {
-    --primary-color:linear-gradient(45deg,#d2001a,#7462ff);
-    --secondary-color:linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+    --primary-color:#dcc778;
+    --secondary-color:#120838;
     --shadow-color: rgba(0, 0, 0, .2);
     --main-color: #f48b5e;
     }
     .dark-theme{
-      --primary-color:linear-gradient( 85.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
-      --secondary-color:linear-gradient(45deg,#d2001a,#7462ff);
-      --shadow-color: rgba(0, 0, 0, .2);
+       --primary-color:#120838;
+       --secondary-color:#dcc778;
+       --shadow-color: rgba(0, 0, 0, .2);
     }
 
 body{
